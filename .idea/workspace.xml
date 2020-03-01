@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6d94fa3a-86d6-459c-a673-fe8038bc0bc9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/Day02/JumpToTheNewWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/Day02/QuitVsClose.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/automation/tests/Day01/MyFirstSeleniumScript.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/automation/tests/Day02/BasicNavigation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/tests/Day02/BasicNavigation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/Day02/BasicNavigation.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YV5xWeP0c4qpD0SwnblqIdnXaT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="experimental" />
+  </component>
+  <component name="RunManager" selected="Application.JumpToTheNewWindow">
+    <configuration name="BasicNavigation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.automation.tests.Day02.BasicNavigation" />
+      <module name="Fall2019Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.automation.tests.Day02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JumpToTheNewWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.automation.tests.Day02.JumpToTheNewWindow" />
+      <module name="Fall2019Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.automation.tests.Day02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuitVsClose" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.automation.tests.Day02.QuitVsClose" />
+      <module name="Fall2019Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.automation.tests.Day02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.JumpToTheNewWindow" />
+        <item itemvalue="Application.QuitVsClose" />
+        <item itemvalue="Application.BasicNavigation" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6d94fa3a-86d6-459c-a673-fe8038bc0bc9" name="Default Changelist" comment="" />
+      <created>1583015167445</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583015167445</updated>
+    </task>
+    <task id="LOCAL-00001" summary="created basic navigation class">
+      <created>1583087357295</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583087357295</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="created basic navigation class" />
+    <option name="LAST_COMMIT_MESSAGE" value="created basic navigation class" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="362" y="71" key="#Project_Structure" timestamp="1583015614071">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="362" y="71" key="#Project_Structure/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1583015614071" />
+    <state x="393" y="7" key="CommitChangelistDialog2" timestamp="1583087356446">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="393" y="7" key="CommitChangelistDialog2/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1583087356446" />
+    <state x="550" y="154" key="FileChooserDialogImpl" timestamp="1583087893304">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="550" y="154" key="FileChooserDialogImpl/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1583087893304" />
+    <state x="606" y="306" key="Github.ShareDialog" timestamp="1583087856276">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="606" y="306" key="Github.ShareDialog/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1583087856276" />
+    <state width="1493" height="211" key="GridCell.Tab.0.bottom" timestamp="1583098888789">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="211" key="GridCell.Tab.0.bottom/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1583098888789" />
+    <state width="1493" height="211" key="GridCell.Tab.0.center" timestamp="1583098888789">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="211" key="GridCell.Tab.0.center/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1583098888789" />
+    <state width="1493" height="211" key="GridCell.Tab.0.left" timestamp="1583098888789">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="211" key="GridCell.Tab.0.left/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1583098888789" />
+    <state width="1493" height="211" key="GridCell.Tab.0.right" timestamp="1583098888789">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="211" key="GridCell.Tab.0.right/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1583098888789" />
+    <state x="279" y="55" key="SettingsEditor" timestamp="1583088019563">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="279" y="55" key="SettingsEditor/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1583088019563" />
+    <state x="467" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1583082713801">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="467" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1583082713801" />
+    <state x="538" y="307" key="git4idea.ui.GitResetDialog" timestamp="1583089206839">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="538" y="307" key="git4idea.ui.GitResetDialog/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1583089206839" />
+    <state x="203" y="115" key="new project wizard" timestamp="1583096717997">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="203" y="115" key="new project wizard/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1583096717997" />
+  </component>
+</project>
