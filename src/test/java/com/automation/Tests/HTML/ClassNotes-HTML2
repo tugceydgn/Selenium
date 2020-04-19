@@ -1,0 +1,59 @@
+
+
+
+Why do we need it in test automation?
+    To create locators. Locators - it's like a pointer on the element. You want your script to read some text,
+     find that element first, with the locator, and then read the text.
+
+     We don't need to know a lot about HTML. Just basics. What is tag, attribute and text... No development here,
+     just locators. Also, locators, it's a separate selenium topic. We will cover it later.
+
+
+What is HTML?
+
+    HTML it's an acronym for Hypertext Markup Language
+
+    It's not like programming language, it,s a markup language. Used for development of websites. To be more specific, front-end part.
+
+    Websites/Web applications have 2 sides: front-end and back-end. User, I mean regular user interacts only with the front-end.
+    As a tester, we might be testing everything: front and back
+
+    front-end -->> HTML + CSS + JavaScript ( to display content)
+
+    back-end -->> business logic + data base
+
+    business logic - java, c#, python....(to process data)
+
+    data base - SQL and NoSQL.... (to store data)
+
+    In HTML, we have lots of tags. We use tags to define elements. For instance, I want to create a basic we page. What should I do?
+
+    1. Create a .html document
+    2. Use some good text editor, that will help you to write a code faster. That gives you some hints, auto-compete, etc...
+    Sublime - is the good one. You can also use IntelliJ, but free version, doesn't have a lot of useful features.
+    That's why we use sublime. Other popular alternatives are: Atom, Notepad++ (windows) and Visual Studio Code (completely free and
+    has great features.)
+    3. Then, you must start with <html> tag. <html> tag - is a root tag in HTML. Most of the tags, have 2 parts: opening <body>
+    and closing </body>. Then, content goes in between opening and closing tag. Tag name is surrounded with angle brackets.
+
+    Then, we have 2 parts: head and body. All page content goes into body. In the head, we have some meta data, different imports
+    (like framework, fonts, etc..), title and some other technical info...
+
+    some tags, like <img> are auto-closeable.
+
+    then, inside tags, we can put attributes.
+    For example: <img src="path/image.jpeg" alt="some name">
+
+    In this case, img - it's a tag.
+    src and alt - attributes.
+    src - to specify where to find the image, that you want to insert here.
+    alt -  if image wasn't found, show this message.
+
+
+
+
+
+
+
+
+

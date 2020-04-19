@@ -1,0 +1,68 @@
+Today is the first class, February 25 2020
+
+Agenda: HTML
+
+Every website/web application has front-end and back-end.
+
+front-end -->> this is what user see in the browser. To built a front-end of any web application, developers use: HTML, CSS
+and JavaScript.
+
+You might also hear something like: ReactJS, Angular, VueJS, JQuer etc... all these things are just JavaScript frameworks.
+
+back-end -->> stands for bussiness logic. Data is not processing in the front-end. All magic happends in the back-end.
+When you go to restaurant, you don't see the kitchen. Same thing with applications, regular user can see only front-end.
+
+To develop back-end, developers use languages like: Java (#1 enterprise development language), Ruby, Python, C#, JavaScript. php, others...
+
+For example: Facebook (originally) is built on PHP. But, it used to be like this, now they build different services with different languages.
+
+learn one, others are easy. All programming languages have many things in common, like: loops, variables, data structures, etc...
+
+
+Lots of useful info about HTML:  http://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
+
+To find something in HTML document (for Chrome) : right click -->> inspect -->> left mouse click on the HTML code -->> ctrl+F
+
+<head>
+Inside the <head> tag, there is one tag that is always included: <title>, but there are others that are just as important:
+
+<title>
+This is where we insert the page name as it will appear at the top of the browser windows or tab
+
+<meta>
+This is where information about the document is stored: character encoding, name (page context), description.
+
+To display an HTML page correctly, a web browser must know the character set used in the page.
+This is specified in the tag: <meta charset="UTF-8">
+
+################
+
+<!DOCTYPE html>
+<html>
+    <head>
+         <title> My first website</title>
+    </head>
+    <body>
+            Hello world!
+    </body>
+</html>
+
+###############
+
+h - means heading. h1 - the biggest one, h6 - the smallest one
+To generate dummy text in HTML, write lorem and hit tab.
+<p> - paragraph
+<strong> - to make text bold
+<a> -hyperlink (once you click on this text, it will bring to some website.Website address is specified in href attribute)
+for example:
+<a href="http://facebook.com">Facebook</a>
+target="_blank" - to open website in the new window
+
+target - it's an attribute
+<a> - it's a tag
+
+
+
+
+
+

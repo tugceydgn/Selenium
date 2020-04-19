@@ -1,0 +1,114 @@
+
+
+Today we gonna use terminal/powershell a lot. If you are windows user, please use powershell.
+Just to search and type PowerShell. Any windows has its by default
+
+#don't worry about git version, as long as you have it you are good to go. If you don't have a git yet, please download
+it from official website or use brew (for mac)
+
+To check if you have a git, you need to run following command.
+
+git --version
+
+If you are not getting any errors, you are fine :)
+
+git version
+
+git - VCS (Version Control System)
+
+SCM - Source Code Management
+
+You can use git in IntelliJ without even installing it. It's because IntelliJ has git too. But, even we want to use git
+via a CLI (Command Line Interface) we need to install it first.
+
+What is VSC in action?
+
+MyProject -- let's say it's your java project
+
+public class MyFirstTest{
+    public void test(){
+        go to google.com
+        get the text
+        assert that title is equals to "Google"
+    }
+}
+
+Once you decide that this is a first version of your project, you can commit changes.
+
+commit changes - means take a snapshot of the project at some point
+
+I would say git it's kind of time machine for your project.
+
+The main role of git is to track changes. Why tracking changes is so important? Because, if something will go wrong,
+we can find what change in the code broke it.
+
+version 2:::
+
+
+public class MyFirstTest{
+    public void test(){
+        go to google.com
+        get the text
+        assert that title is equals to "Google"
+    }
+
+    public void test2(){
+        go to facebook.com
+        get the text and print it
+        assert that title is equals to "Facebook"
+    }
+}
+
+Once you have completed your test #2, commit this changes, just in case.
+
+Git can show you the difference from version to version. When (date, time) what file, what line was added,
+modified or deleted. And the most important - by whom! Also, why?
+
+How you can figure out why? There is something that calls "commit message". Every single commit must be followed by commit message.
+Whenever you commit, you must describe what you have changed in this version of the code. How this version is different from previous.
+
+In real work environment, many people can work together within the same project.
+
+Bu if project is on my computer, how other people can access it?
+For this, we use github. Github - it's a storage for projects. Every collaborator (project contributor) has a copy of the project.
+Then, github has a main copy.
+
+In case of google drive, everyone works on the same document.
+
+In case of github (based on git) - everyone has a copy of the project.
+
+GitHub -it's like a warehouse for git projects
+
+Let's setup git username, email and password
+
+How to setup?
+
+Open terminal/powershell/git bash and write following command:
+
+please use your github email here
+This command is needed for git, know which account to use when you gonna work with github.
+Otherwise, it will ask you username/password every time.
+
+git config --global user.email "email@email.com"
+
+once you enter this command, you will not see anything. If you see FATAL, something went wrong...
+
+git config --global user.name "github username"
+git config --global user.password "github password"
+
+To change it, run it again
+
+How to see config?
+
+Just enter git config -l, and then use arrow down \|/ to scroll over git config settings. To exit from the log press 'q'
+
+-l stands for list
+
+git config -l or git config --list
+
+
+
+
+
+
+
