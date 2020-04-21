@@ -15,6 +15,7 @@ public class QuitVsClose {
 
         Thread.sleep(4000);
 
+        driver.close();
 
     }
 }
