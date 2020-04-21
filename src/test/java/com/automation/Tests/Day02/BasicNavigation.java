@@ -4,6 +4,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import java.security.PublicKey;
+
 public class BasicNavigation {
     public static void main(String[] args) throws Exception {
         //to start selenium script we need:
@@ -33,6 +35,38 @@ public class BasicNavigation {
             System.out.println("TEST PASSED!");
         } else {
             System.out.println("TEST FAILED!");
+        }
+
+        //come back to google
+        driver.navigate().back();
+        Thread.sleep(3000); //for demo, wait 3 seconds
+
+        //checking if page title is equals to Google
+        verifyEquals(driver.getTitle(), "Google");
+        // move forward in the browser history
+        // again going to amazon
+        driver.navigate().forward();
+        System.out.println("Title: " + driver.getTitle());
+        //driver.getTitle() - returns page title of the page that is currently opened
+
+
+        //must be at the end
+        driver.close(); //to close browser
+        //browser cannot close itself
+
+
+    }
+    /*
+     * Check if to strings are same. If print, TEST PASSED! message
+     * Otherwise print, TEST FAILED! message
+     * @param arg1
+     * @param arg2 */
+
+    public static void verifyEquals(String arg1, String arg2) {
+        if (arg1.equals(arg2)) {
+            System.out.println("TEST PASSED");
+        } else {
+            System.out.println("TEST FAILED");
         }
     }
 }
