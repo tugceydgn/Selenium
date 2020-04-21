@@ -5,7 +5,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class QuitVsClose {
-
     public static void main(String[] args) throws Exception {
 
         WebDriverManager.chromedriver().setup();
@@ -16,9 +15,6 @@ public class QuitVsClose {
 
         Thread.sleep(4000);
 
-       // driver.close(); //will close only one window
-        driver.quit(); // to close all windows
 
     }
-
 }
