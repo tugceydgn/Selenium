@@ -1,5 +1,6 @@
 package com.automation.Tests.Day02;
 
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -27,11 +28,40 @@ public class JumpToTheNewWindow {
         //Set - doesn't allow duplicates
 
         Set<String> windowHandles = driver.getWindowHandles();
-        System.out.println(windowHandles);
 
+        System.out.println(windowHandles);
+        System.out.println("BEFORE SWITCH : " + driver.getCurrentUrl());
         //since we have all windows
         //and we know id of original window
         //we can say switch to something that is not equals to old window id
+        for (String windowId : windowHandles) {
+            //if it's not an old window, then switch
+            if (!windowId.equals(windowHandle)) {
+                //to jump to the new window
+                driver.switchTo().window(windowId);
+            }
+        }
+        System.out.println("AFTER SWITCH : " + driver.getCurrentUrl());
 
+        //driver.close();
+        driver.quit();
+    }
 
-    }}
+    /**
+     * This method helps to switch in between windows based on page title
+     *
+     * @param pageTitle - description
+     * @param driver    - description
+     */
+
+    public static void switchToWindowBasedOnTitle(String pageTitle, WebDriver driver) {
+
+        Set<String> windows = driver.getWindowHandles();
+        for (String window : windows) {
+            driver.switchTo().window(window);
+            if (driver.getTitle().equals(pageTitle)) {
+                break;
+            }
+        }
+    }
+}

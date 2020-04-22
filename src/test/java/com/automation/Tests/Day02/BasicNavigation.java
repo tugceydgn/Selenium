@@ -60,11 +60,13 @@ public class BasicNavigation {
 
 
     }
-    /*
+    /**
      * Check if to strings are same. If print, TEST PASSED! message
      * Otherwise print, TEST FAILED! message
-     * @param arg1
-     * @param arg2 */
+     *
+     * @param arg1 - description
+     * @param arg2 - description
+     */
 
     public static void verifyEquals(String arg1, String arg2) {
         if (arg1.equals(arg2)) {
