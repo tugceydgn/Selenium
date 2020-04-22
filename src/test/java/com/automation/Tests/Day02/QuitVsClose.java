@@ -13,9 +13,11 @@ public class QuitVsClose {
 
         driver.get("http://practice.cybertekschool.com/open_new_tab");
 
-        Thread.sleep(4000);
+        Thread.sleep(5000);
 
-        driver.close();
+        //driver.close(); //will close only one window
+        driver.quit(); //to close all windows
+
 
     }
 }

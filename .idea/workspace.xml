@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d94fa3a-86d6-459c-a673-fe8038bc0bc9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/Tests/Day02/ClassNotes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/Tests/Day02/ClassNotes.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/Tests/Day02/QuitVsClose.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/Tests/Day02/QuitVsClose.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/automation/Tests/Day02/BasicNavigation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/automation/Tests/Day02/BasicNavigation.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,7 +201,21 @@
       <option name="project" value="LOCAL" />
       <updated>1587512592454</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="latest version">
+      <created>1587513349541</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1587513349541</updated>
+    </task>
+    <task id="LOCAL-00006" summary="latest version">
+      <created>1587513372386</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1587513372386</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -238,10 +249,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="566" y="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1584489973875" />
-    <state x="393" y="7" key="CommitChangelistDialog2" timestamp="1587513348704">
+    <state x="393" y="7" key="CommitChangelistDialog2" timestamp="1587513371644">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="7" key="CommitChangelistDialog2/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1587513348704" />
+    <state x="393" y="7" key="CommitChangelistDialog2/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1587513371644" />
     <state x="550" y="154" key="FileChooserDialogImpl" timestamp="1587323075906">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
