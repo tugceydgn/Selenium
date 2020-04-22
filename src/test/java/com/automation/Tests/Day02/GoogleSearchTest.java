@@ -27,9 +27,13 @@ public class GoogleSearchTest {
         //how to press Enter after entering the text?
         //use Keys.ENTER
         //Keys.ENTER - perform keyboard click
+        //keysToSend - name of the parameter, we don't specify it
         search.sendKeys("Java", Keys.ENTER);
-        Thread.sleep(2000);
 
+        //2000 - 2 seconds
+        //12000 - 12 seconds
+        //Thread.sleep() - is used to pause java program
+        Thread.sleep(2000);
 
         driver.quit();
 
