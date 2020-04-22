@@ -1,0 +1,39 @@
+
+Today is March 3, 2020
+
+        Agenda:
+            Locators
+            WebElement
+
+##############################################################################
+
+Recommendations:
+    #1 Watch short videos before the class
+    #2 Practice a lot
+    #3 Keep reading related information from books, articles or watch
+    related videos on youtube, etc...
+
+    ## It's not only about selenium, it's about how people improve them
+    self in IT. Listen to podcasts, audio books.
+
+    testing related: Joe Colantonio
+    books for selenium: only one - Selenium Cookbook 2nd generation
+
+    #1 book for interview preparation: http://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850
+
+####################################################################################
+
+WebElement - this is how selenium wraps any kind of elements on the page.
+
+WebElement - is an interface
+
+driver find an element by this locator
+
+driver.findElement(By.name("last-name"));
+
+findElement - it's a method, that returns a WebElement object;
+
+test package - this is where we gonna store all our tests.
+
+utilities - package, for sorting reusable methods that will support our tests. For example, we can create a class
+with that will give us a WebDriver, whenever we need it.
