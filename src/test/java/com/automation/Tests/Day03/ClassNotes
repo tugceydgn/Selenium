@@ -37,3 +37,61 @@ test package - this is where we gonna store all our tests.
 
 utilities - package, for sorting reusable methods that will support our tests. For example, we can create a class
 with that will give us a WebDriver, whenever we need it.
+
+We have 8 locators:
+id              <--- the best locator. Always unique
+name            <--- good locator. not always unique, but mostly
+tagName         <--- not good locator, because Not always unique, almost never unique
+className       <--- not good locator, because  almost never unique
+linkText        <--- ok locator, sometimes unique
+partialLinkText <--- same as linkText
+xpath           <---
+cssSelector
+
+to check if tag name is unique:
+
+//tagname
+
+if you want to check some attribute like name, id, class just put attribute=value pair into square brackets []
+
+[name='password']
+
+If it shows 1 of 1 - locator is unique
+
+If you see button on page, it doesn't always based on <button> tag. Check first what kind of <tag> represents that element
+
+getAttribute("attribute") -->> returns value
+
+For example:
+
+<a class="button secondary radius" href="/logout"><i class="icon-2x icon-signout"> Logout</i></a>
+
+a - tag name
+
+class - attribute
+href - attribute
+
+Logout - text
+
+getAttribute("class") --> button secondary radius
+################################################################################
+
+WebElement - any HTML element on the page for Selenium
+Locators, the best locator is an id
+        name
+        tagName
+        linkText
+        partialLinkText
+        id
+        className
+        not covered yet: xpath and cssSelector
+to enter the text, we use .sendKeys("text")
+to read the text, we use element.getText()
+to read some attribute, we use .getAttribute("attribute_name")
+
+What if your locator is wrong? How you gonna find out?
+       -you will get - NoSuchElementException
+
+ submit() you can use it, for buttons that a type="submit". Can be useful when click() method doesn't work (sometimes it happens)
+
+
