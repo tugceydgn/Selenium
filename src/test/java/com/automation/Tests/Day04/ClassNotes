@@ -1,0 +1,66 @@
+Today is March 4, 2020
+
+        Agenda:
+                Locators
+                findElements() ---> List<WebElement>
+
+##############################################################################
+
+Under tests, create a package "warmup"
+
+@channel WARM-UP
+Go to Ebay
+Enter search term
+Click on search button
+Print number of results
+
+Go to amazon
+Enter search term
+Click on search button
+Verify title contains search term
+
+Go to wikipedia.org
+Enter search term 'selenium webdriver'
+Click on search button
+Click on search result 'Selenium (software)'
+verify url ends with 'Selenium_(software)'
+
+
+StaleElementReferenceException: stale element reference: element is not attached to the page document
+
+StaleElementReferenceException - means that selenium cannot find previously located element.
+It happens, when you are trying to interact with element after page refresh or navigation
+
+How to handle it?
+- if it occurs, you need to find element again.
+
+try{
+    //if it generates exception once in a while
+    //put it into try/catch and try to find element one more time
+
+    driver.findElement(By.id("name").click()
+
+    }catch(StaleElementReferenceException e){
+    driver.findElement(By.id("name").click()
+    }
+
+    what happens if element wasn't found, in case of findElement?
+
+    NoSuchElementException
+
+    what happens if elements weren't found, in case of findElements?
+
+    nothing, you will get empty list
+
+    Interview questions: how to check if element doesn't exist any more/ just doesn't exist?
+
+    check if collection/list is empty
+
+    if(driver.findElements(By.id("name")).size() == 0){
+    element doesn't exist
+    }
+
+You can use findElements method to find 0+ elements
+IN case of findElement - only 1 element. If there is no element by given locator - NoSuchElementException
+
+
