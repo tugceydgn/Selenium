@@ -33,5 +33,7 @@ public class FileUploading {
 
         BrowserUtils.wait(3);
         driver.quit();
+
+
     }
 }

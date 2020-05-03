@@ -74,6 +74,40 @@ of this frame.
 
 List<List<String>> -- nested frame
 
+Copying as path:
+
+Windows: First, go to the folder that contains the file you are interested in. The easiest way of copying a file path
+is to hold down the Shift key on your keyboard and then right click on the file. (That displays extra functionality
+in the context menu). Then choose "Copy as path" from the menu. This trick will also work on folders,
+if you want to copy the folder path. Even if the path doesn't contain any spaces, Windows will still automatically
+surround it with double-quotes.
+
+################################################################################################
+
+To upload file in Selenium: you need to use sendKeys() method and provide path to the file.
+
+isDisplayed() --- to check if element is visible
+returns false if element in the DOM, but hidden
+
+isEnabled() --- to check if element is intractable (if you can do something with this element)
+
+isSelected() --- returns true, if radio button or check box is already clicked
+
+frames - to insert another HTML document. Content inside a frame is not visible for
+Selenium by default, that's why you have to switch:
+
+driver.switchTo().frame();
+
+you can switch based on id/name, index, WebElement.
+
+driver.switchTo().defaultContent() - if you are inside a child frame, switch to parent
+
+driver.switchTo().defaultContent() - exit from all frames to original document.
+
+to upload file, just use sendKeys() method and specify path to the file from your computer.
+
+
+
 
 
 
