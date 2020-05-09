@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
+import javax.swing.*;
 import java.util.List;
 
 public class SelectByText {
@@ -46,6 +47,21 @@ public class SelectByText {
         BrowserUtils.wait(5);
         Select selectState = new Select(driver.findElement(By.id("state")));
         selectState.selectByVisibleText("Texas");
+
+        //option that is currently selected
+        //.getFirstSelectedOption() - returns a WebElement, that's why we need to call .getText() method
+        //.getText retrieves visible text from the WebElement
+        String selected = selectState.getFirstSelectedOption().getText();
+        if (selected.equals("Texas")) {
+            System.out.println("TEST PASSED");
+        } else {
+            System.out.println("TEST FAILED");
+        }
+
+        List<WebElement> states = selectState.getOptions();
+        for (WebElement eachState : states) {
+            System.out.println(eachState.getText());
+        }
 
 
         BrowserUtils.wait(2);
