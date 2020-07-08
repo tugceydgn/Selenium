@@ -2,15 +2,84 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d94fa3a-86d6-459c-a673-fe8038bc0bc9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/Tests/Day06/Alerts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/Tests/Day06/NoSelectDropdown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/Tests/Day06/SelectByIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/Tests/Day06/SelectByTextMultipleOptions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/Tests/Day06/SelectByValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/Tests/Day06/Xpath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VytrackTestUsers.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smoke_test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/Pages/AbstractPageBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/Pages/Activities/CalendarEventPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/Pages/Fleet/VehiclesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/Pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/Tests/Day07/ClassNotes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/Tests/Day07/CssSelector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/Tests/Day07/Xpath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/Tests/Day08/BasicTestNGTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/Tests/Day08/ClassNotes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/Tests/Day08/PracticeTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/Tests/Day08/SearchTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/Tests/Day08/UnitTestPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/Tests/Day09/ClassNotes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/Tests/Day10/ClassNotes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/Tests/Day11/ActionsTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/Tests/Day11/ClassNotes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/Tests/Day11/JSExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/Tests/Day12/ClassNotes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/Tests/Day12/JSExecutor2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/Tests/Day12/WebTables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/Tests/Day13/ClassNotes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/Tests/Day13/ExplicitWait.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/Tests/Day13/FluentWaitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/Tests/Day13/ImplicitWait.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/Tests/Day13/WarmUpTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/Tests/Day13/WebOrders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/Tests/Day14/ClassNotes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/Tests/Day14/ConfigurationReaderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/Tests/Day14/DriverTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/Tests/Day14/SystemProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/Tests/Day25_excel_io/ReadDataFromExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/Tests/Day28_write_into_excel/WriteIntoExcelFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/Tests/Practice/RegistrationForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/Tests/Vytrack/AbstractTestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/Tests/Vytrack/Activities/CalendarEventsPageTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/Tests/Vytrack/Activities/CallsPageTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/Tests/Vytrack/Activities/NewCalendarEventsTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/Tests/Vytrack/Fleet/NewVehiclesPageTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/Tests/Vytrack/Fleet/VehiclesPageTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/Tests/Vytrack/Login/ClassNotes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/Tests/Vytrack/Login/LoginPageTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/Tests/Vytrack/Login/NewLoginTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/Utilities/ConfigurationReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/Utilities/DateTimeUtilities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/Utilities/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/Utilities/ExcelUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/calendarEvents.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/Thu_Jul_02_12-58-18_CDT_2020_verifyWarningMessage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/Thu_Jul_02_13-47-39_CDT_2020_warning_message.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/Thu_Jul_02_13-47-47_CDT_2020_columnNamesTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/Thu_Jul_02_14-07-02_CDT_2020_warning_message.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/Thu_Jul_02_14-07-10_CDT_2020_columnNamesTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/Thu_Jul_02_14-09-14_CDT_2020_warning_message.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/Thu_Jul_02_14-09-22_CDT_2020_columnNamesTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/Thu_Jul_02_14-20-03_CDT_2020_warning_message.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/Thu_Jul_02_14-31-37_CDT_2020_warning_message.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/Thu_Jul_02_14-52-28_CDT_2020_warning_message.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/Thu_Jul_02_14-57-14_CDT_2020_warning_message.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/Thu_Jul_02_15-14-08_CDT_2020_warning_message.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/Wed_Jul_01_13-32-07_CDT_2020_createCalendarEventTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/Wed_Jul_01_13-33-13_CDT_2020_createCalendarEventTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/Wed_Jul_01_13-38-52_CDT_2020_createCalendarEventTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/Wed_Jul_01_13-44-06_CDT_2020_createCalendarEventTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/Tests/Day06/ClassNotes" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/Tests/Day06/ClassNotes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/Tests/Twitter/Deneme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/Tests/Twitter/Deneme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/Tests/Twitter/TakingMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/Tests/Twitter/TakingMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/Utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/Utilities/BrowserUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/Utilities/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/Utilities/DriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,10 +96,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/test/java/com/automation/Pages/AbstractPageBase.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/com/automation/Pages/Activities/CalendarEventPage.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
@@ -40,119 +112,157 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="ToolWindowMessages.ShowToolbar" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/automation/Tests/HTML" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Fall2019OnlineCucumberSelenium/src/test/java/com/vytrack" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.automation.tests.Vytrack" />
-      <recent name="com.automation.tests.Twitter" />
-      <recent name="com.automation.Utilities" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\TUGCE\IntelliJIDEAProjects\Fall2019Selenium\src\test\java\com\automation\Tests\HTML" />
       <recent name="C:\Users\TUGCE\IntelliJIDEAProjects\Fall2019Selenium\src\test\java\com\automation\Tests\GIT-02292020" />
       <recent name="C:\Users\TUGCE\IntelliJIDEAProjects\Fall2019Selenium\src\test\java\com\automation\Tests\Day00" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.automation.Tests.Day13" />
+      <recent name="com.automation.tests.Vytrack" />
+      <recent name="com.automation.tests.Twitter" />
+      <recent name="com.automation.Utilities" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\TUGCE\IntelliJIDEAProjects\Fall2019OnlineCucumberSelenium\src\test\java\com\vytrack" />
+      <recent name="C:\Users\TUGCE\IntelliJIDEAProjects\Fall2019OnlineCucumberSelenium\src\test\java\com\vytrack\pages" />
+      <recent name="C:\Users\TUGCE\IntelliJIDEAProjects\Fall2019Selenium\src\test\java\com\automation\Pages\Activities" />
+      <recent name="C:\Users\TUGCE\IntelliJIDEAProjects\Fall2019Selenium" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Xpath">
-    <configuration name="Alerts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.automation.Tests.Day06.Alerts" />
+  <component name="RunManager" selected="TestNG.WriteIntoExcelFile.writeIntoFileTest (1)">
+    <configuration name="NewLoginTests.loginTestWithExcel" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Fall2019Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.automation.Tests.Day06.*" />
+          <option name="PATTERN" value="com.automation.Tests.Vytrack.Login.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.automation.Tests.Vytrack.Login" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.Tests.Vytrack.Login.NewLoginTests" />
+      <option name="METHOD_NAME" value="loginTestWithExcel" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NoSelectDropdown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.automation.Tests.Day06.NoSelectDropdown" />
+    <configuration name="ReadDataFromExcel" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Fall2019Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.automation.Tests.Day06.*" />
+          <option name="PATTERN" value="com.automation.Tests.Day25_excel_io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.automation.Tests.Day25_excel_io" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.Tests.Day25_excel_io.ReadDataFromExcel" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectByTextMultipleOptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.automation.Tests.Day06.SelectByTextMultipleOptions" />
+    <configuration name="ReadDataFromExcel.readExcelFileTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Fall2019Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.automation.Tests.Day06.*" />
+          <option name="PATTERN" value="com.automation.Tests.Day25_excel_io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.automation.Tests.Day25_excel_io" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.Tests.Day25_excel_io.ReadDataFromExcel" />
+      <option name="METHOD_NAME" value="readExcelFileTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectByValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.automation.Tests.Day06.SelectByValue" />
+    <configuration name="WriteIntoExcelFile.writeIntoFileTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Fall2019Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.automation.Tests.Day06.*" />
+          <option name="PATTERN" value="com.automation.Tests.Day28_write_into_excel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.automation.Tests.Day28_write_into_excel" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.Tests.Day28_write_into_excel.WriteIntoExcelFile" />
+      <option name="METHOD_NAME" value="writeIntoFileTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Xpath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.automation.Tests.Day06.Xpath" />
+    <configuration name="WriteIntoExcelFile.writeIntoFileTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Fall2019Selenium" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.automation.Tests.Day06.*" />
+          <option name="PATTERN" value="com.automation.Tests.Day28_write_into_excel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.automation.Tests.Day28_write_into_excel" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.Tests.Day28_write_into_excel.WriteIntoExcelFile" />
+      <option name="METHOD_NAME" value="writeIntoFileTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-XX:+ShowCodeDetailsInExceptionMessages" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="TestNG.NewLoginTests.loginTestWithExcel" />
+      <item itemvalue="TestNG.ReadDataFromExcel" />
+      <item itemvalue="TestNG.ReadDataFromExcel.readExcelFileTest" />
+      <item itemvalue="TestNG.WriteIntoExcelFile.writeIntoFileTest" />
+      <item itemvalue="TestNG.WriteIntoExcelFile.writeIntoFileTest (1)" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Xpath" />
-        <item itemvalue="Application.Alerts" />
-        <item itemvalue="Application.SelectByValue" />
-        <item itemvalue="Application.NoSelectDropdown" />
-        <item itemvalue="Application.SelectByTextMultipleOptions" />
+        <item itemvalue="TestNG.WriteIntoExcelFile.writeIntoFileTest (1)" />
+        <item itemvalue="TestNG.WriteIntoExcelFile.writeIntoFileTest" />
+        <item itemvalue="TestNG.NewLoginTests.loginTestWithExcel" />
+        <item itemvalue="TestNG.ReadDataFromExcel" />
+        <item itemvalue="TestNG.ReadDataFromExcel.readExcelFileTest" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -326,7 +436,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589048090984</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="latest version">
+      <created>1589841415788</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1589841415788</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -337,113 +454,95 @@
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="362" y="71" key="#Project_Structure" timestamp="1584294262086">
+    <state x="225" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594247141851">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="362" y="71" key="#Project_Structure/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1584294262086" />
-    <state x="526" y="216" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587249383418">
+    <state x="225" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1594247141851" />
+    <state x="94" y="94" width="1349" height="637" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1593721638666">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="526" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1587249383418" />
-    <state x="500" y="193" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1584489972745">
+    <state x="94" y="94" width="1349" height="637" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1593721638666" />
+    <state x="526" y="216" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590505184724">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="500" y="193" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1584489972745" />
-    <state x="368" y="329" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1584489964788">
+    <state x="526" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1590505184724" />
+    <state x="566" y="272" width="404" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1592368550369">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="368" y="329" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1584489964788" />
-    <state x="566" y="272" width="404" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1583767694255">
+    <state x="566" y="272" width="404" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1592368550369" />
+    <state x="393" y="7" key="CommitChangelistDialog2" timestamp="1589841414953">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="566" y="272" width="404" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1583767694255" />
-    <state x="566" y="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1584489973875">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="566" y="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1584489973875" />
-    <state x="393" y="7" key="CommitChangelistDialog2" timestamp="1589048089694">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="393" y="7" key="CommitChangelistDialog2/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1588514726941" />
+    <state x="393" y="7" key="CommitChangelistDialog2/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1589841414953" />
     <state x="393" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1589048089694" />
-    <state x="550" y="154" key="FileChooserDialogImpl" timestamp="1587323075906">
+    <state x="550" y="154" key="FileChooserDialogImpl" timestamp="1594180080678">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="550" y="154" key="FileChooserDialogImpl/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1587323075906" />
-    <state x="606" y="306" key="Github.ShareDialog" timestamp="1583087856276">
+    <state x="550" y="154" key="FileChooserDialogImpl/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1594180080678" />
+    <state width="1493" height="266" key="GridCell.Tab.0.bottom" timestamp="1594249988246">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="606" y="306" key="Github.ShareDialog/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1583087856276" />
-    <state width="1493" height="128" key="GridCell.Tab.0.bottom" timestamp="1589840889641">
+    <state width="1493" height="266" key="GridCell.Tab.0.bottom/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1594249988246" />
+    <state width="671" height="266" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594076946374" />
+    <state width="1493" height="266" key="GridCell.Tab.0.center" timestamp="1594249988246">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="128" key="GridCell.Tab.0.bottom/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1589840889641" />
-    <state width="1637" height="193" key="GridCell.Tab.0.bottom/0.0.1536.824/3840.0.1680.1010@3840.0.1680.1010" timestamp="1583796476760" />
-    <state width="692" height="128" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589050827014" />
-    <state width="1493" height="128" key="GridCell.Tab.0.center" timestamp="1589840889641">
+    <state width="1493" height="266" key="GridCell.Tab.0.center/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1594249988246" />
+    <state width="671" height="266" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594076946373" />
+    <state width="1493" height="266" key="GridCell.Tab.0.left" timestamp="1594249988245">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="128" key="GridCell.Tab.0.center/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1589840889641" />
-    <state width="1637" height="193" key="GridCell.Tab.0.center/0.0.1536.824/3840.0.1680.1010@3840.0.1680.1010" timestamp="1583796476760" />
-    <state width="692" height="128" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589050827014" />
-    <state width="1493" height="128" key="GridCell.Tab.0.left" timestamp="1589840889641">
+    <state width="1493" height="266" key="GridCell.Tab.0.left/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1594249988245" />
+    <state width="671" height="266" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594076946373" />
+    <state width="1493" height="266" key="GridCell.Tab.0.right" timestamp="1594249988246">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="128" key="GridCell.Tab.0.left/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1589840889641" />
-    <state width="1637" height="193" key="GridCell.Tab.0.left/0.0.1536.824/3840.0.1680.1010@3840.0.1680.1010" timestamp="1583796476760" />
-    <state width="692" height="128" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589050827014" />
-    <state width="1493" height="128" key="GridCell.Tab.0.right" timestamp="1589840889641">
+    <state width="1493" height="266" key="GridCell.Tab.0.right/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1594249988246" />
+    <state width="671" height="266" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594076946373" />
+    <state width="1493" height="263" key="GridCell.Tab.1.bottom" timestamp="1591329069155">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="128" key="GridCell.Tab.0.right/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1589840889641" />
-    <state width="1637" height="193" key="GridCell.Tab.0.right/0.0.1536.824/3840.0.1680.1010@3840.0.1680.1010" timestamp="1583796476760" />
-    <state width="692" height="128" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589050827014" />
-    <state width="1493" height="263" key="GridCell.Tab.1.bottom" timestamp="1583857987714">
+    <state width="1493" height="263" key="GridCell.Tab.1.bottom/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1591329069155" />
+    <state width="1493" height="263" key="GridCell.Tab.1.center" timestamp="1591329069155">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="263" key="GridCell.Tab.1.bottom/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1583857987714" />
-    <state width="1493" height="263" key="GridCell.Tab.1.center" timestamp="1583857987714">
+    <state width="1493" height="263" key="GridCell.Tab.1.center/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1591329069155" />
+    <state width="1493" height="263" key="GridCell.Tab.1.left" timestamp="1591329069155">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="263" key="GridCell.Tab.1.center/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1583857987714" />
-    <state width="1493" height="263" key="GridCell.Tab.1.left" timestamp="1583857987714">
+    <state width="1493" height="263" key="GridCell.Tab.1.left/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1591329069155" />
+    <state width="1493" height="263" key="GridCell.Tab.1.right" timestamp="1591329069155">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="263" key="GridCell.Tab.1.left/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1583857987714" />
-    <state width="1493" height="263" key="GridCell.Tab.1.right" timestamp="1583857987714">
+    <state width="1493" height="263" key="GridCell.Tab.1.right/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1591329069155" />
+    <state x="300" y="68" key="Maven.ArtifactSearchDialog" timestamp="1594249676405">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="263" key="GridCell.Tab.1.right/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1583857987714" />
-    <state x="300" y="68" key="Maven.ArtifactSearchDialog" timestamp="1587829985842">
+    <state x="300" y="68" key="Maven.ArtifactSearchDialog/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1594249676405" />
+    <state x="336" y="116" key="SettingsEditor" timestamp="1593714851856">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="300" y="68" key="Maven.ArtifactSearchDialog/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1587829985842" />
-    <state x="154" y="27" key="SettingsEditor" timestamp="1587592144841">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="279" y="55" key="SettingsEditor/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1585503833518" />
+    <state x="336" y="116" key="SettingsEditor/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1593714851856" />
     <state x="154" y="27" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1587592144841" />
-    <state width="774" height="418" key="XDebugger.FullValuePopup" timestamp="1583857719252">
+    <state x="467" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1593623658715">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="774" height="418" key="XDebugger.FullValuePopup/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1583857719252" />
-    <state x="467" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1589045493338">
+    <state x="467" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1593623658715" />
+    <state x="467" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1592617270924" />
+    <state x="203" y="66" key="new project wizard" timestamp="1593962643637">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="467" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1588714224298" />
-    <state x="467" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1589045493338" />
-    <state x="538" y="307" key="git4idea.ui.GitResetDialog" timestamp="1583089206839">
+    <state x="203" y="66" key="new project wizard/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1593962643637" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1591672136379">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="538" y="307" key="git4idea.ui.GitResetDialog/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1583089206839" />
-    <state x="203" y="115" key="new project wizard" timestamp="1583096717997">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1591672136379" />
+    <state x="492" y="325" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1593718192405">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="203" y="115" key="new project wizard/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1583096717997" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1583605289977">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1583605289977" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1583421852203" />
+    <state x="492" y="325" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1536.824/3840.0.1680.1010@0.0.1536.824" timestamp="1593718192405" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Fall2019Selenium$C__Users_TUGCE_IntelliJIDEAProjects_Fall2019Selenium_testng_xml.ic" NAME="$PROJECT_DIR$/testng.xml Coverage Results" MODIFIED="1593716757511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

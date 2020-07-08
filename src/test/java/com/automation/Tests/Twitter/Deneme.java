@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Deneme {
 
     public static void main(String[] args) throws InterruptedException {
-        WebDriverManager.chromedriver().version("79").setup();
+        WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
         driver.get("http://twitter.com");
         driver.manage().window().maximize();
